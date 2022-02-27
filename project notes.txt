@@ -1,0 +1,31 @@
+This text file will contain new information and skills that were found during the course of the project. 
+
+Resource for the data
+https://www.kaggle.com/rockbottom73/crude-oil-prices
+https://www.kaggle.com/khadeejahalghadeer/renewable-energy-generation-world-1965-to-2018
+https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
+
+
+This include new commands and shortcuts.
+
+Excel
+- obtain the year from date provided =YEAR([@Date])
+- obtain the month from date provided =MONTH([@Date])
+- convert month numbers to their respective text =TEXT(MONTH([@Date]),"mmm")
+
+
+IF statement to break years into decades
+=IF(year<1998,"1st 10",IF(year<2008,"2nd 10",IF(year<2018,"3rd 10","4th 10")))
+
+Different pivot tables to create
+- Table of the months with total closing values; filtered by the year
+- Table of the months with total closing values; filtered by the range(decade)
+- Table of the months showing all the years in the columns
+
+
+***Using of data bars to help visualise the difference in the amount
+
+
+
+--->UK_CLEANED_GENERATION
+Seeing that it contains weird characters such as - and ..., attempts to replace it proved futile but made use of excel and its replace capabilities (Ctrl+H) to do this. (Will still try to do this with the use of python programming; script that will put it in pandas form and search through all of it to replace the weird characters to 0 for context)
