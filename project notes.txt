@@ -28,4 +28,5 @@ Different pivot tables to create
 
 
 --->UK_CLEANED_GENERATION
-Seeing that it contains weird characters such as - and ..., attempts to replace it proved futile but made use of excel and its replace capabilities (Ctrl+H) to do this. (Will still try to do this with the use of python programming; script that will put it in pandas form and search through all of it to replace the weird characters to 0 for context)
+Seeing that it contains weird characters such as - and ..., attempts to replace it proved futile but made use of excel and its replace capabilities (Ctrl+H) to do this. 
+Will still try to do this with the use of python programming; script that will put it in pandas form and search through all of it to replace the weird characters to 0 for context
